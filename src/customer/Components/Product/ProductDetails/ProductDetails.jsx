@@ -59,35 +59,6 @@ const product = {
   details:
     'The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming "Charcoal Gray" limited release.',
 };
-
-// {
-//   "imageUrl": "https://rukminim1.flixcart.com/image/612/612/ky1vl3k0/t-shirt/f/u/6/m-2co-w-regular-must-blk-young-trendz-original-imagadhfgte57e67.jpeg?q=70",
-//   "brand": "Young trendz",
-//   "title": "Pack of 2 Women Solid Round Neck Pure Cotton White, Bla...",
-//   "color": "white",
-//   "discountedPrice": 354,
-//   "price": 2069,
-//   "discountPersent": 80,
-//   "size": [
-//       {
-//         "name": "S",
-//         "quantity": 20
-//       },
-//       {
-//         "name": "M",
-//         "quantity": 30
-//       },
-//       {
-//         "name": "L",
-//         "quantity": 50
-//       }
-//     ],
-//     "quantity": 100,
-//     "topLavelCategory": "Women",
-//     "secondLavelCategory": "Clothing",
-//     "thirdLavelCategory": "top",
-//     "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
-// }
 const reviews = { href: "#", average: 4, totalCount: 117 };
 
 function classNames(...classes) {
@@ -370,7 +341,7 @@ export default function ProductDetails() {
               <Grid item xs={7}>
                 <div className="space-y-5">
                   {customersProduct.product?.reviews.map((item, i) => (
-                    <ProductReviewCard item={item} key={i}/>
+                    <ProductReviewCard item={item} />
                   ))}
                 </div>
               </Grid>

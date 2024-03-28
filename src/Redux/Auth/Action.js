@@ -53,13 +53,13 @@ export const login = userData => async dispatch => {
 
 
 //  get user from token
-export const getUser = (jwt) => {
+export const getUser = (token) => {
   return async (dispatch) => {
     dispatch({ type: GET_USER_REQUEST });
     try {
       const response = await axios.get(`${API_BASE_URL}/api/users/profile`,{
         headers:{
-          "Authorization":`Bearer ${jwt}`
+          "Authorization":`Bearer ${token}`
         }
       });
       const user = response.data;
