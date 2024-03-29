@@ -112,7 +112,7 @@ export const removeCartItem = (reqData) => async (dispatch) => {
         `${API_BASE_URL}/api/cart_items/${reqData.cartItemId}`,
         reqData.data,config
       );
-  console.log("update cartItem ",data)
+  console.log("udated cartitem ",data)
       dispatch({
         type: UPDATE_CART_ITEM_SUCCESS,
         payload: data,
