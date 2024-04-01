@@ -1,9 +1,9 @@
 
 import axios from 'axios';
+const DEPLOYED='https://e-backend-production.up.railway.app/'
+const LOCALHOST='http://localhost:9094'
 
-
-
-export const API_BASE_URL = 'https://e-backend-production.up.railway.app/'
+export const API_BASE_URL = DEPLOYED
 
 const api = axios.create({
   baseURL: API_BASE_URL,
