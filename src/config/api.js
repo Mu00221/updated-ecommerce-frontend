@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-const DEPLOYED='http://e-backend-production.up.railway.app/'
+const DEPLOYED='https://mu-afghanculture.com/'
 const LOCALHOST='http://localhost:9094'
 
 export const API_BASE_URL = DEPLOYED
