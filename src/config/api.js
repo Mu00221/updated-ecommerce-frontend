@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-const DEPLOYED='https://mu-afghanculture.com/'
+const DEPLOYED='https://acrid-wound-production.up.railway.app/'
 const LOCALHOST='http://localhost:9094'
 
 export const API_BASE_URL = DEPLOYED
