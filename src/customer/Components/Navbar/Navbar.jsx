@@ -17,12 +17,12 @@ function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex items-center py-6">
               <img
-                src="https://res.cloudinary.com/ddkso1wxi/image/upload/v1675919455/Logo/Copy_of_Zosh_Academy_nblljp.png"
-                alt="Shopwithzosh"
+                src="https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/313179446_485879536896240_6414216902207107003_n.png?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=OjP4f4gQ55sQ7kNvgHuh56t&_nc_ht=scontent-ord5-1.xx&oh=00_AfDsw68fzL1xFxA92bmiCjMrxaMEBvBJkPsQ3nnFmZ3Q3g&oe=66421A5B"
+                alt="ShopwithMu"
                 className="h-8 w-8 mr-2"
               />
               <span className="font-bold text-white text-lg">
-                Shop With Zosh
+                Shop with Mu
               </span>
             </Link>
 
@@ -82,7 +82,7 @@ function Navbar() {
             <form className="hidden md:block flex-grow max-w-sm">
               <div className="relative w-full">
                 <input
-                  type="search"
+                  type="text"
                   className="block w-full border border-gray-300 rounded-md py-2 pl-10 pr-3 leading-5 placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:border-blue-500 focus:ring-blue-500 focus:text-gray-900 sm:text-sm"
                   placeholder="Search"
                 />

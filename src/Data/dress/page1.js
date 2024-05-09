@@ -1,10 +1,10 @@
 export const dressPage1 = [
   {
     "imageUrl":
-      "https://rukminim1.flixcart.com/image/612/612/l0wrafk0/dress/l/2/o/3xl-m2s13003-peach-madame-original-imagchhhwbypcann.jpeg?q=70",
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fef%2F6d%2Fef6df9745a8bbbabd27ec493505b2140c4872a30.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
     "brand": "MADAME",
     "title": "Women Asymmetric Pink Dress",
-    "color": "",
+    "color": "white",
     "discountedPrice": 1299,
     "price": 2499,
     "discountPersent": 50,
@@ -31,10 +31,10 @@ export const dressPage1 = [
   },
   {
     "imageUrl":
-      "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/1/h/g/m-pw333-purshottam-wala-original-imag8zf6ybkmhehy-bb.jpeg?q=70",
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa2%2Ff4%2Fa2f4c1de5a31cbea2a9a4da8b7aa27b3cf6ff535.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
     "brand": "Daevish",
     "title": "Women Maxi Blue Dress",
-    "color": "",
+    "color": "black & white",
     "discountedPrice": 341,
     "price": 1899,
     "discountPersent": 82,
@@ -61,10 +61,10 @@ export const dressPage1 = [
   },
   {
     "imageUrl":
-      "https://rukminim1.flixcart.com/image/612/612/xif0q/dress/z/s/i/s-a1-zwerlon-original-imagn9uycxbhshur.jpeg?q=70",
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F18%2Fd9%2F18d9b899b01e5ead399aa38abe8f5b1ec3b8e1f4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
     "brand": "ZWERLON",
     "title": "Women A-line Purple Dress",
-    "color": "",
+    "color": "gray",
     "discountedPrice": 499,
     "price": 1999,
     "discountPersent": 75,

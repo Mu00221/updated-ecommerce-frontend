@@ -70,7 +70,7 @@ const Footer = () => {
       </Grid>
       <Grid className='pt-20' item xs={12} >
         <Typography variant="body2" component="p" align="center">
-          &copy; 2023 My Company. All rights reserved.
+          &copy; 2024 My Company. All rights reserved.
         </Typography>
         <Typography variant="body2" component="p" align="center">
           Made with love by Me.
@@ -78,7 +78,7 @@ const Footer = () => {
         <Typography variant="body2" component="p" align="center">
           Icons made by{' '}
           <Link href="https://www.freepik.com" color="inherit" underline="always">
-            Freepik
+            Buda
           </Link>{' '}
           from{' '}
           <Link href="https://www.flaticon.com/" color="inherit" underline="always">

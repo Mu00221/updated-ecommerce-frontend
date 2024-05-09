@@ -82,7 +82,7 @@ export const removeCartItem = (reqData) => async (dispatch) => {
           "Content-Type":"application/json"
         },
       };
-      await axios.delete(`${API_BASE_URL}/api/cart_items/${reqData.cartItemId}`,config);
+      await axios.delete(`${API_BASE_URL}/api/cart_items/${reqData.cartItemId}/delete`,config);
   
       dispatch({
         type: REMOVE_CART_ITEM_SUCCESS,
@@ -109,7 +109,7 @@ export const removeCartItem = (reqData) => async (dispatch) => {
         },
       };
       const { data } = await axios.put(
-        `${API_BASE_URL}/api/cart_items/${reqData.cartItemId}`,
+        `${API_BASE_URL}/api/cart_items/${reqData.cartItemId}/update`,
         reqData.data,config
       );
   console.log("udated cartitem ",data)

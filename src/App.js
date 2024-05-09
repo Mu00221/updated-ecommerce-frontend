@@ -14,6 +14,11 @@ function App() {
   const {auth}=useSelector(store=>store);
   const dispatch = useDispatch();
   const jwt = localStorage.getItem("jwt");
+
+  useEffect(() => {
+    document.title = "Buda_Fashion"
+  }, [])
+
   useEffect(() => {
     if (jwt) {
       dispatch(getUser(jwt));

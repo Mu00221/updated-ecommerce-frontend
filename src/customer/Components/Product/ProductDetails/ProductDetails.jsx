@@ -9,12 +9,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { findProductById } from "../../../../Redux/Customers/Product/Action";
 import { addItemToCart } from "../../../../Redux/Customers/Cart/Action";
 import { getAllReviews } from "../../../../Redux/Customers/Review/Action";
-import { lengha_page1 } from "../../../../Data/Women/LenghaCholi";
-import { gounsPage1 } from "../../../../Data/Gouns/gouns";
+import { men_jeans } from "../../../../Data/Men/men_jeans";
 
 const product = {
   name: "Basic Tee 6-Pack",
-  price: "₹996",
+  price: "$996",
   href: "#",
   breadcrumbs: [
     { id: 1, name: "Men", href: "#" },
@@ -176,10 +175,10 @@ export default function ProductDetails() {
               <h2 className="sr-only">Product information</h2>
               <div className="flex space-x-5 items-center text-lg lg:text-xl tracking-tight text-gray-900 mt-6">
                 <p className="font-semibold">
-                  ₹{customersProduct.product?.discountedPrice}
+                  ${customersProduct.product?.discountedPrice}
                 </p>
                 <p className="opacity-50 line-through">
-                  ₹{customersProduct.product?.price}
+                  ${customersProduct.product?.price}
                 </p>
                 <p className="text-green-600 font-semibold">
                   {customersProduct.product?.discountPersent}% Off
@@ -494,7 +493,7 @@ export default function ProductDetails() {
         <section className=" pt-10">
           <h1 className="py-5 text-xl font-bold">Similer Products</h1>
           <div className="flex flex-wrap space-y-5">
-            {gounsPage1 .map((item) => (
+            {men_jeans .map((item) => (
               <HomeProductCard product={item} />
             ))}
           </div>

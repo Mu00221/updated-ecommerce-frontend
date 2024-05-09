@@ -74,7 +74,7 @@ const RateProduct = () => {
             <p className="opacity-50 font-semibold">
               {customersProduct.product?.brand}
             </p>
-            <p>₹{customersProduct.product?.price}</p>
+            <p>${customersProduct.product?.price}</p>
             <p>Size: Free</p>
            {customersProduct.product?.color && <p>Color: {customersProduct.product?.color}</p>}
             <div className="flex items-center space-x-3">

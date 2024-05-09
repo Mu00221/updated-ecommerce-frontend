@@ -246,7 +246,7 @@ export default function Navigation() {
 
       <header className="relative bg-white">
         <p className="flex h-10 items-center justify-center bg-indigo-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
-          Get free delivery on orders over $100
+          Buy one get one 50% off
         </p>
 
         <nav aria-label="Top" className="mx-auto">
@@ -266,8 +266,8 @@ export default function Navigation() {
                 <Link to="/">
                   <span className="sr-only">Your Company</span>
                   <img
-                    src="https://res.cloudinary.com/ddkso1wxi/image/upload/v1675919455/Logo/Copy_of_Zosh_Academy_nblljp.png"
-                    alt="Shopwithzosh"
+                    src="https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/313179446_485879536896240_6414216902207107003_n.png?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=OjP4f4gQ55sQ7kNvgHuh56t&_nc_ht=scontent-ord5-1.xx&oh=00_AfDsw68fzL1xFxA92bmiCjMrxaMEBvBJkPsQ3nnFmZ3Q3g&oe=66421A5B"
+                    alt="ShopwithMu"
                     className="h-8 w-8 mr-2"
                   />
                 </Link>
