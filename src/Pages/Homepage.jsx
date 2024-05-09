@@ -13,8 +13,8 @@ const Homepage = () => {
       <HomeCarousel images={homeCarouselData} />
 
       <div className="space-y-10 py-20">
-      <HomeProductSection data={men_jeans} section={"Men's Kurta"} />
-        <HomeProductSection data={menshirt} section={"Men's Shoes"} />
+      <HomeProductSection data={men_jeans} section={"Men's Jeans"} />
+        <HomeProductSection data={menshirt} section={"Men's Shirts"} />
         <HomeProductSection data={dressPage1} section={"Dress"} />
       </div>
 
